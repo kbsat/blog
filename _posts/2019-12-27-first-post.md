@@ -1,6 +1,6 @@
 ---
-title : "범티티 블로그 첫글"
-excerpt : "GitHub Blog 서비스인 github.io 블로그 시작하기로 했다."
+title : "23살 비전공자의 개발자 선언과 2019년 회고"
+excerpt : ""
 
 categories:
     - Blog
