@@ -3,9 +3,8 @@ title : "23살 비전공자의 개발자 선언과 2019년 회고"
 excerpt : ""
 
 categories:
-    - Post
+    - Posts
 tags:
-    - Blog
     - 2019
 last_modified_at: 2019-12-27 10:11 PM**
 ---
