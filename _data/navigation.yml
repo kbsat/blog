@@ -6,7 +6,7 @@ main:
     url: /categories/TIL/
   - title: "About"
     url: /about/
-  title: "Tags"
+  - title: "Tags"
     url: /tags/
-  title: "Categories"
+  - title: "Categories"
     url: /categories/
