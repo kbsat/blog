@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "일상"
-    url: /categories/life/
+  - title: "Life"
+    url: /categories/Life/
   - title: "TIL"
     url: /categories/TIL/
-  - title: "About"
-    url: /about/
   - title: "Tags"
     url: /tags/
   - title: "Categories"
     url: /categories/
+  - title: "About"
+    url: /about/
