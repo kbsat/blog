@@ -1,12 +1,12 @@
 # main links
 main:
-  - title: "Posts"
-    url: https://kbsat.github.io
+  - title: "일상"
+    url: /categories/life/
+  - title: "TIL"
+    url: /categories/TIL/
   - title: "About"
     url: /about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  title: "Tags"
+    url: /tags/
+  title: "Categories"
+    url: /categories/
