@@ -3,7 +3,7 @@ title : "23살 비전공자의 개발자 선언과 2019년 회고"
 excerpt : ""
 
 categories:
-    - 일상
+    - Life
 tags:
     - 2019
     - 회고
