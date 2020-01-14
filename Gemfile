@@ -1,5 +1,6 @@
 source "https://rubygems.org"
-gemspec
 
-gem "tzinfo"
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem "jekyll"
+gem "jekyll-gist"
+gem "jekyll-paginate"
+gem "jekyll-seo-tag"
