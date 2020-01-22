@@ -1,0 +1,414 @@
+I"I><h2 id="논리란">논리란?</h2>
+<p>논리는 일상생활에서 많이 들어본 단어일 것이다. 논리적으로 생각하다. 논리적인 사람. 등등 논리라는 말은 정말 익숙하다. 하지만 이에 대해 설명해보라 하면 입이 잘 떨어지지 않는다. 논리의 사전적 정의를 살펴보자.<br />
+<strong><code class="highlighter-rouge">논리 : 생각하거나 말하거나 글을 씀에 있어서, 내용을 이치에 맞게 이끌어 가는 과정이나 원리. 철학적으로는, 참된 인식을 얻기 위해 사고 작용이 밟는 과정이나 형식을 뜻함.</code></strong></p>
+
+<p>말이 너무 어렵다. 쉽게 <strong>참인지 거짓인지 따져보는 것</strong>이라고 이해하자. 이러한 논리는 일반적으로 명제논리와 술어 논리로 구분된다.</p>
+<ol>
+  <li>명제 논리 : 주어와 술어를 구분하지 않고 전체를 하나의 식으로 처리해 참 또는 거짓이 명확하게 결정됨</li>
+  <li>술어 논리 : 주어와 술어로 구분하여 참 또는 거짓에 관한 법칙을 다룸</li>
+</ol>
+
+<h2 id="명제란">명제란?</h2>
+<p>명제란 <strong>참이나 거짓을 객관적이고 명확하게 구분할 수 있는 문장이나 수식</strong>을 의미한다.<br />
+여기서 객관적이고 명확하게 라는 말에 주의해야한다. 조금이라도 주관적이거나 모호하다면 이는 명제가 아니다.<br />
+명제가 참 또는 거짓의 값을 가질 때 이 값을 명제의 <strong>진리값</strong>이라 하고 참일 때는 true, 거짓일 때는 false로 각각 표시한다. 명제의 예를 들어보도록 하자.</p>
+<blockquote>
+  <p>1 &lt; 3 (참인 명제)<br />
+개나리는 노란색이다. (참인 명제)<br />
+2*3의 값은 짝수이다. (참인 명제)<br />
+3+2 는 10이다. (거짓인 명제)<br />
+고양이는 귀엽다. (명제X)<br />
+3x + 5y = 7(명제X) &lt;- 3x + 5y = 7은 x,y의 값에 따라 참이고 거짓임이 달라지므로 명제가 아니다.</p>
+</blockquote>
+
+<p>또한 명제는 구성되어 있는 명제의 수에 따라 단순 명제, 합성 명제로 나뉜다.</p>
+<ol>
+  <li>단순 명제 : 하나의 문장이나 식으로 구성되있는 명제</li>
+  <li>합성 명제 : 단순 명제들을 <strong>논리 연산자를 이용</strong>해 연결하여 만들어진 명제</li>
+</ol>
+
+<p>또한 합성 명제에서 진리값에 따라 항진 명제, 모순 명제로 나뉜다.</p>
+<ol>
+  <li>항진 명제 : 합성 명제의 진리값이 항상 참인 명제</li>
+  <li>모순 명제 : 합성 명제의 진리값이 항상 거짓인 명제</li>
+</ol>
+
+<h2 id="논리연산">논리연산</h2>
+<p>이번에는 합성명제를 만들기 위해 쓰이는 논리연산자와 그 기능에 대해서 알아보자.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">연산자 이름</th>
+      <th style="text-align: center">기호</th>
+      <th style="text-align: center">연산자 의미</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">부정</td>
+      <td style="text-align: center">~</td>
+      <td style="text-align: center">NOT</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">논리곱</td>
+      <td style="text-align: center">∧</td>
+      <td style="text-align: center">AND</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">논리합</td>
+      <td style="text-align: center">∨</td>
+      <td style="text-align: center">OR</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">배타적 논리합</td>
+      <td style="text-align: center">⊕</td>
+      <td style="text-align: center">Exclusive OR</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">조건</td>
+      <td style="text-align: center">→</td>
+      <td style="text-align: center">if … than</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">쌍방 조건</td>
+      <td style="text-align: center">↔</td>
+      <td style="text-align: center">if and only if(iff)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="1-부정">1. 부정</h3>
+
+<p>부정은 명제 p가 주어졌을 때 ~p로 나타낸다.<br />
+~p는 p와 반대되는 진리값을 가지게 된다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">p</th>
+      <th style="text-align: center">~p</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">F</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">T</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="2-논리곱-and-연산">2. 논리곱 (AND 연산)</h3>
+<p>논리곱은 두 명제 p와 q가 주어졌을 때 p∧q 로 나타낸다.<br />
+두 명제의 진리값이 모두 참일 때만 p∧q가 참이 된다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">p</th>
+      <th style="text-align: center">q</th>
+      <th style="text-align: center">p∧q</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">T</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">F</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">F</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">F</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="3-논리합-or-연산">3. 논리합 (OR 연산)</h3>
+<p>논리합은 두 명제 p와 q가 주어졌을 때 p∨q 로 나타낸다.<br />
+두 명제의 진리값이 하나만 참이여도 p∨q는 참이 된다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">p</th>
+      <th style="text-align: center">q</th>
+      <th style="text-align: center">p∨q</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">T</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">T</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">T</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">F</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="4-배타적-논리합-xor-연산">4. 배타적 논리합 (XOR 연산)</h3>
+<p>배타적 논리합은 두 명제 p와 q가 주어졌을 때 p⊕q 로 나타내고 ‘exlusive OR’로 읽는다.<br />
+두 명제의 진리값이 서로 다를 때 p⊕q는 참이 된다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">p</th>
+      <th style="text-align: center">q</th>
+      <th style="text-align: center">p⊕q</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">F</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">T</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">T</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">F</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="5-조건">5. 조건</h3>
+<p>조건은 두 명제 p와 q가 주어 졌을 때 p→q로 나타내고 ‘p이면 q이다’라고 읽는다.<br />
+p→q는 p가 참이고 q가 거짓일 때만 거짓인 진리값을 가지고 나머지는 모두 참인 진리값을 가진다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">p</th>
+      <th style="text-align: center">q</th>
+      <th style="text-align: center">p→q</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">T</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">F</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">T</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">T</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="6-쌍방-조건">6. 쌍방 조건</h3>
+<p>쌍방 조건은 두 명제 p와 q가 주어졌을 때 p↔q로 나타내고 ‘p이면 q이고, q이면 p이다’ 로 읽는다.<br />
+p↔q의 진리값은 p와 q의 진리값이 모두 참이거나 거짓일 때 참인 진리값을 가진다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">p</th>
+      <th style="text-align: center">q</th>
+      <th style="text-align: center">p↔q</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">T</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">F</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">T</td>
+      <td style="text-align: center">F</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">F</td>
+      <td style="text-align: center">T</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="논리적-동치란-무엇인가">논리적 동치란 무엇인가?</h2>
+<p>논리적 동치란 두 명제가 있을 때 모든 상황에서 두 명제의 진리값이 동일할 때 논리적 동치관계라고 하며 기호는 ≡로 표시한다. 예를 한번 들어보자.</p>
+
+<blockquote>
+  <p>p→q 와 ~p∨q 가 논리적 동치인가?<br />
+이를 확인하기 위해서는 진리표를 작성해보는 방법이 있다.</p>
+</blockquote>
+
+<blockquote>
+  <table>
+    <thead>
+      <tr>
+        <th style="text-align: center">p</th>
+        <th style="text-align: center">q</th>
+        <th style="text-align: center">p→q</th>
+        <th style="text-align: center">~p∨q</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align: center">T</td>
+        <td style="text-align: center">T</td>
+        <td style="text-align: center">T</td>
+        <td style="text-align: center">T</td>
+      </tr>
+      <tr>
+        <td style="text-align: center">T</td>
+        <td style="text-align: center">F</td>
+        <td style="text-align: center">F</td>
+        <td style="text-align: center">F</td>
+      </tr>
+      <tr>
+        <td style="text-align: center">F</td>
+        <td style="text-align: center">T</td>
+        <td style="text-align: center">T</td>
+        <td style="text-align: center">T</td>
+      </tr>
+      <tr>
+        <td style="text-align: center">F</td>
+        <td style="text-align: center">F</td>
+        <td style="text-align: center">T</td>
+        <td style="text-align: center">T</td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
+
+<p>진리표와 같이 p→q 와 ~p∨q는 서로 같은 진리값을 가지게 된다.<br />
+따라서 두 명제는 논리적 동치관계를 가지며, p→q ≡ ~p∨q가 성립한다.</p>
+
+<p>또한 논리적 동치관계에는 여러 법칙들이 존재하는데 중요하다고 생각하는 세 개의 동치법칙을 적어보겠다. 다른 여러 법칙들은 검색을 통하면 나오니 참고하자!</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">논리적 동치 관계</th>
+      <th style="text-align: center">법칙 이름</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">~(p∨q) ≡ (~p)∧(~q)<br /> ~(p∧q) ≡ (~p)∨(~q)</td>
+      <td style="text-align: center">드 모르간 법칙</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">p→q ≡~p∨q</td>
+      <td style="text-align: center">조건 법칙</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">p→q ≡~q→~p</td>
+      <td style="text-align: center">대우 법칙</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="명제의-역-이--대우">명제의 역, 이 , 대우</h2>
+<p>명제 p→q가 있을 때, 이를 역, 이, 대우로 표현할 수 있다.</p>
+<ul>
+  <li>역 : q→p</li>
+  <li>이 : ~p→~q</li>
+  <li>대우 : ~q→~p</li>
+</ul>
+
+<p><strong>명제와 그 명제의 대우는 서로 논리적 동치관계를 이룬다.</strong></p>
+
+<h2 id="추론이란">추론이란?</h2>
+<p>추론은 주어진 명제(전제)가 참인 것을 바탕으로 새로운 명제(결론)가 참이 되는 것을 유도해내는 방법을 의미한다. 만일 주어진 전제가 참이고 결론도 참일 때 <strong>유효 추론</strong>이라하고, 결론이 거짓일 때 <strong>허위 추론</strong>이라고 한다.<br />
+전제 p1, p2가 주어질 때 결론 q가 나온 것을 수식으로 표현하면 <strong>p<sub>1</sub>,p<sub>2</sub> ┝ q</strong> 로 표현할 수 있다.</p>
+
+<p>추론도 논리적 동치관계와 마찬가지로 여러가지 법칙들이 존재한다. 이 중 가장 많이 사용되는 세 법칙을 적어보겠다.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">추론법칙</th>
+      <th style="text-align: center">법칙 이름</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">p<br />p→q<br />∴q</td>
+      <td style="text-align: center">긍정 법칙</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">~q<br />p→q<br />∴~p</td>
+      <td style="text-align: center">부정 법칙</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">p→q<br />q→r<br />∴p→r</td>
+      <td style="text-align: center">삼단 법칙</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="술어-논리">술어 논리</h2>
+<p>이 때까지 명제 논리에 대한 내용을 설명하였다. 이제 술어 논리에 대해서 설명할 것이다. 술어 논리는 명제 중 값이 정해지지 않는 변수나 객체가 존재해 변수의 값에 따라 참이나 거짓이 될수 있는 논리이다.<br />
+예를 들어 x<sup>2</sup>+5x+6=0 이라는 명제는 x가 -2 또는 -3이 될 경우에 참이 되고 그 외에는 거짓의 값을 가진다. 이런 경우 우리는 ‘x<sup>2</sup>+5x+6=0을 만족시키는 변수가 있다’ 고 표현한다.<br />
+이와 같은 형태의 명제를 p(x) 로 표시하고, p(x)를 변수 x에 대한 명제 술어라 하는데, 명제 논리와 구분하여 명제 술어에 대한 논리를 술어 논리라고 한다.</p>
+
+<h3 id="술어-한정자">술어 한정자</h3>
+<p>술어를 나타내는 방법 중 변수의 범위를 한정시키는 것을 술어 한정자라고 한다. 술어 한정자에는 ‘모든 것에 대하여’ 와 ‘존재한다’ 두 가지가 있으며 기호는 각각 ∀,∃ 를 사용한다.</p>
+
+<ol>
+  <li>전체 한정자 : ‘모든 x에 대하여 p(x)는 참이다’를 전체 한정자로 나타내면 ∀x p(x)로 나타낸다.</li>
+  <li>존재 한정자 : ‘어떤 x에 대하여 p(x)가 참인 x가 존재한다’를 존재 한정자로 나타내면 ∃x p(x)로 나타낸다.</li>
+  <li>~(∀x p(x)) ≡ ∃x (~p(x))  : ‘모든 x에 대하여 p(x)는 성립하지않는다’ 는 ‘p(x)가 성립하지 않는 x가 존재한다’ 와 동치이다.</li>
+</ol>
+:ET
