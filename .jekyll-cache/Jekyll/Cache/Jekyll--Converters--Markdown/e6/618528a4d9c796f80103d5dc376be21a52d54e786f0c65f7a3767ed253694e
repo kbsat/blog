@@ -1,0 +1,54 @@
+I"�	<h3 id="계획수행표">계획수행표</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">계획</th>
+      <th style="text-align: center">수행</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">이산수학 강의 4주차 진행</td>
+      <td style="text-align: center">△</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">알고리즘 과제 해결</td>
+      <td style="text-align: center">○</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>수행도</strong></td>
+      <td style="text-align: center"><strong>75%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="today-i-learend">Today I Learend</h2>
+<h2 id="이산수학">이산수학</h2>
+<ul>
+  <li>오늘은 강의 4주차를 끝내려 했지만 절반만 들었다.</li>
+  <li>함수를 배웠다. 함수는 정의역의 한 원소를 넣으면 공역의 한 원소에 대응되는 이항 관계이다.</li>
+  <li>단사함수와 전사함수 그리고 역함수에 대해서 배웠다.
+    <ul>
+      <li>단사함수 :  a ≠ b 이면 f(a) ≠ f(b)인 함수.</li>
+      <li>전사함수 : 모든 공역이 치역인 함수.</li>
+      <li>역함수 : 기역함수(전단사 함수)에서 f(a) = b일때 f<sup>-1</sup>(b) = a</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="알고리즘">알고리즘</h2>
+<ul>
+  <li>과제로 나온 정렬 알고리즘 문제를 모두 풀었다. 백준 알고리즘처럼 사이트에 코드를 올리면 자동으로 테스트를 해 채점결과를 알려주는 과제였다. 좀만 틀려도 원하는 값이 나오지 않아 곤란한 경우가 있었다. 다행히 친구의 도움으로 해결할 수 있었다.</li>
+  <li>마지막 radix 알고리즘은 수도코드를 보고 풀었을 뿐 정확한 알고리즘 분석이 부족하다. 내일 꼭 분석해봐야겠다.</li>
+</ul>
+
+<h2 id="느낀점">느낀점</h2>
+<ul>
+  <li>주말이라 진도도 거의 다 끝나서 복습을 진행하였다. 복습을 진행하면서 여러 모호했던 알고리즘 개념들이 잡히기 시작했다.</li>
+  <li>이번 주부터는 과제가 조금 잡히기 시작했으므로 과제를 하나 하나 끝내가면서 강의를 진행해야겠다.</li>
+  <li>10일 까지 알고리즘 과제를 끝내야 되기 때문에 6일날 알고리즘 과제를 해결할 것을 목표로 한다.</li>
+  <li>13일 까지 이산수학 과제를 끝내야 되기 때문에 6일 이후부터 이산수학 과제를 실시한다.</li>
+</ul>
+
+:ET

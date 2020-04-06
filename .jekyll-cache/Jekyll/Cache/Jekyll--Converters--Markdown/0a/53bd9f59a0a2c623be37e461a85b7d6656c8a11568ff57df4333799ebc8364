@@ -1,11 +1,35 @@
-I"S	<h2 id="계획이행">계획이행</h2>
-<p>|계획|수행|
-|:-:|:-:|
-|프로그래밍 언어론 수업|X|
-|윈도우즈 프로그래밍 수업|O|
-|이산수학 수업|O|
-|알고리즘 과제|X|
-| <strong>수행도</strong> |<strong>50%</strong>|</p>
+I"�<h3 id="계획수행표">계획수행표</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">계획</th>
+      <th style="text-align: center">수행</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">프로그래밍 언어론 수업</td>
+      <td style="text-align: center">X</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">윈도우즈 프로그래밍 수업</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">이산수학 수업</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">알고리즘 과제</td>
+      <td style="text-align: center">X</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>수행도</strong></td>
+      <td style="text-align: center"><strong>50%</strong></td>
+    </tr>
+  </tbody>
+</table>
 
 <h2 id="today-i-learend">Today I Learend</h2>
 <h2 id="이산수학">이산수학</h2>
@@ -33,7 +57,7 @@
   <li>이산수학은 아직 따라갈만 하지만 나중에 내용들이 중복되다 보면 복잡할 것 같다. 내용들을 잘 숙지해놔야겠다.</li>
 </ul>
 
-<h2 id="내일할-일">내일할 일</h2>
+<h2 id="내일-할-일">내일 할 일</h2>
 <ol>
   <li>프언어 수업</li>
   <li>이것이 자바다 예외 파트 공부</li>

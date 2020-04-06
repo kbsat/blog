@@ -1,0 +1,134 @@
+I"!<h3 id="계획수행표">계획수행표</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">계획</th>
+      <th style="text-align: center">수행</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">프로그래밍 언어론 수업</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">이것이 자바다 예외 파트 공부</td>
+      <td style="text-align: center">△</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">알고리즘 과제 최소 절반 해결하기</td>
+      <td style="text-align: center">△</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">알고리즘 1장 복습</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>수행도</strong></td>
+      <td style="text-align: center"><strong>80%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="today-i-learend">Today I Learend</h2>
+<h2 id="프로그래밍-언어론">프로그래밍 언어론</h2>
+<ul>
+  <li>regular grammar의 뜻과 finite-state machine의 개념을 간단하게 배웠다.</li>
+  <li>명령형 언어들은 추상적임. (폰노이만 구조 위에서)</li>
+  <li>Name : 변수 뿐만 아니라 함수, 인자 , 다른 구조체에서 주 속성으로 쓰임.
+    <ul>
+      <li>design issues for names : case sensitve한가? 예약어를 사용하는가?</li>
+      <li>length : 길이는 어느정도 인지, 길수록 코딩 자유도가 높아지지만 컴파일러 부담이 커진다.</li>
+      <li>form : 문자,숫자,_로 구성 ( 숫자는 처음에 나올 수 없음 ) 언어에 따라 문자의 타입을 name에 넣어야하는 경우도 있다.(Perl)</li>
+      <li>case sensitivty : 대 소문자를 구별하는가?? &lt;- 보는 관점에 따라 가독성이 떨어진다 높아진다 의견이 분분함.</li>
+      <li>special word : 특수한 역할을 하는 이름. 너무 많아도 문제 적어도 문제</li>
+    </ul>
+  </li>
+  <li>variable : 메모리 셀을 추상화한 것. 6개의 특성을 지님
+    <ul>
+      <li>Name</li>
+      <li>Address : 변수가 연관되어 있는 주소(C의 포인터) , L-VALUE라고도 함. (assignment(=)의 왼쪽에 위치하기 때문), 두 변수가 똑같은 address를 참조할 경우 이를 aliases 라고 한다.</li>
+      <li>Type : 변수에 어떤 범위의 값들이 들어갈 수 있는지 지정함</li>
+      <li>Value : 변수의 값 ( R-VALUE 라고도 함. )</li>
+    </ul>
+  </li>
+  <li>Binding : 변수와 변수의 타입의 연관, 연산과 symbol 사이의 연관 등 값과 값의 속성 사이를 연관시키는 것을 의미. 일어나는 시간에 따라 static, dynamic으로 나뉨.</li>
+  <li>Static binding time : 컴파일 이전에 결정되는 binding time
+    <ul>
+      <li>Language design time : 언어에서 허용되는 대부분의 자료구조나 프로그램 구조를 확정.</li>
+      <li>Language implementation time : 언어를 정의할 때 이루어진 형태( 값의 범위, 표현가능 자리 수 등 )에 대한 binding</li>
+      <li>Compile time : 변수와 타입 사이의 binding</li>
+    </ul>
+  </li>
+  <li>Dynamic binding time : 실행 중에 일어나는 binding time
+    <ul>
+      <li>Load time : 변수를 메모리 셀과 binding</li>
+      <li>Runtime : 실행 시간에 일어나는 binding. 변수의 값 확정과 변수에 기억장소 할당.</li>
+    </ul>
+  </li>
+  <li>1990년대 중반 이후  하드웨어 속도의 증가와 유저의 편의성 필요로 dynamic type binding의 프로그래밍 언어들이 많이 등장 (JS,python,ruby,php 등
+    <ul>
+      <li>장점 : 프로그래밍 자유도가 높다. generic program이 가능하다.</li>
+      <li>단점 : 보통 인터프리터 형식이므로 하드웨어 자원을 많이 먹고 에러를 실행하기 전에 잡아주지 못한다.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="이것이-자바다">이것이 자바다</h2>
+<ul>
+  <li>예외의 종류에는 일반 예외와 실행 예외가 있다. 일반 예외는 컴파일 하기 전에 예외를 파악해 에러를 출력하고 실행 예외는 컴파일 할 때는 에러를 출력하지 않고 해당 문제가 발생했을 때 에러를 출력한다.</li>
+  <li>예외는 java.langException 의 파생클래스로 이루어짐. 이중 RuntimeException은 실행예외를 뜻함.</li>
+  <li>실행예외의 종류
+    <ul>
+      <li>NullPointerException : null 값인 포인터를 참조해 .를 사용했을 때 발생.</li>
+      <li>ArrayIndexOutOfBoundsException : 배열의 최대 인덱스를 벗어나는 인덱스를 참조했을 때 발생.</li>
+      <li>NumberFormatException : 문자로 이루어진 문자열을 숫자로 바꾸려 했을 때 발생. parseInt할 때 주로 발생</li>
+      <li>ClassCastException : 잘못된 클래스 캐스팅을 하려 했을 때 발생. 주로 상위클래스, 하위클래스 나 인터페이스, 구현 클래스 간에 발생</li>
+    </ul>
+  </li>
+  <li>try, catch, finally로 예외처리 가능
+    <ul>
+      <li>try 구문 안에 예외를 검사할 코드 삽입</li>
+      <li>catch의 인자 안에는 검사할 예외 클래스 타입을 삽입하고 본문에는 예외 발생 시 할 작업을 삽입</li>
+      <li>finally는 에러가 발생하든 안하든 무조건 발생해야하는 작업 삽입.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="알고리즘">알고리즘</h2>
+<ul>
+  <li>빅 오 표기법과 같이 시간복잡도의 여러 표기법에 대해서 배웠다.</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>빅 오 표기법 : O(g(x)) = { f(x)</td>
+          <td>∃c &gt; 0 , x<sub>0</sub> &gt;= 0 s.t. ∀x &gt;= x<sub>0</sub> , f(x) &lt;= cg(x) }</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>빅 오메가 표기법 : Ω(g(x)) = { f(x)</td>
+          <td>∃c &gt; 0 , x<sub>0</sub> &gt;= 0 s.t. ∀x &gt;= x<sub>0</sub> , f(x) &gt;= cg(x) }</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>빅 쎄타 표기법 : Θ(g(x)) = Ω(g(x)) ∩ O(g(x))</li>
+  <li>이를 증명 할 때에는 위를 만족하는 상수 c와 x<sub>0</sub> 가 존재함을 보이면 된다.</li>
+</ul>
+
+<h2 id="느낀점">느낀점</h2>
+<ul>
+  <li>주말이라 진도도 거의 다 끝나서 복습을 진행하였다. 복습을 진행하면서 여러 모호했던 알고리즘 개념들이 잡히기 시작했다.</li>
+  <li>이번 주부터는 과제가 조금 잡히기 시작했으므로 과제를 하나 하나 끝내가면서 강의를 진행해야겠다.</li>
+  <li>10일 까지 알고리즘 과제를 끝내야 되기 때문에 6일날 알고리즘 과제를 해결할 것을 목표로 한다.</li>
+  <li>13일 까지 이산수학 과제를 끝내야 되기 때문에 6일 이후부터 이산수학 과제를 실시한다.</li>
+</ul>
+
+:ET

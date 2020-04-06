@@ -1,0 +1,79 @@
+I"&<h3 id="계획수행표">계획수행표</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">계획</th>
+      <th style="text-align: center">수행</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">이산수학 강의 4주차 진행</td>
+      <td style="text-align: center">△</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">알고리즘 과제 해결</td>
+      <td style="text-align: center">○</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>수행도</strong></td>
+      <td style="text-align: center"><strong>75%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="today-i-learend">Today I Learend</h2>
+<h2 id="이산수학">이산수학</h2>
+<ul>
+  <li>오늘은 강의 4주차를 끝내려 했지만 절반만 들었다.</li>
+  <li>함수를 배웠다. 함수는 정의역의 한 원소를 넣으면 공역의 한 원소에 대응되는 이항 관계이다.</li>
+  <li>단사함수와 전사함수 그리고 역함수에 대해서 배웠다.
+    <ul>
+      <li>단사함수 :  a ≠ b 이면 f(a) ≠ f(b)인 함수.</li>
+      <li>전사함수 : 모든 공역이 치역인 함수.</li>
+      <li>역함수 : 기역함수(전단사 함수)에서 f(a) = b일때 f<sup>-1</sup>(b) = a</li>
+    </ul>
+  </li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>그래프 G = {(x,f(x))</td>
+          <td>x∈정의역}</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>천장함수, 바닥함수는 알고리즘 시간에 수도코드로 나와있는 걸 봤었는데 오늘 배우기 전까지는 대괄호가 인쇄가 잘못 된 줄 알았다. 알고보니 의미가 있는 기호였다.
+    <ul>
+      <li>천장함수 : 숫자를 올림해버림</li>
+      <li>바닥함수 : 숫자를 내림해버림</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="알고리즘">알고리즘</h2>
+<ul>
+  <li>과제로 나온 정렬 알고리즘 문제를 모두 풀었다. 백준 알고리즘처럼 사이트에 코드를 올리면 자동으로 테스트를 해 채점결과를 알려주는 과제였다. 좀만 틀려도 원하는 값이 나오지 않아 곤란한 경우가 있었다. 다행히 친구의 도움으로 해결할 수 있었다.</li>
+  <li>처음에 java로 풀이를 했지만 C++로 코드를 작성해야하는 것 같았다. 그래서 C++을 구글링해가며 과제를 해결했다.</li>
+  <li>마지막 radix 알고리즘은 수도코드를 보고 풀었을 뿐 정확한 알고리즘 분석이 부족하다. 내일 꼭 분석해봐야겠다.</li>
+</ul>
+
+<h2 id="느낀점">느낀점</h2>
+<ul>
+  <li>알고리즘 과제를 하다보니 C++이 굉장히 어색했다. 자바를 자주 쓰다보니 C의 문법도 헷갈리기 시작했다. 이젠 이클립스로 코딩하는 것이 visual studio로 코딩하는 것보다 편하다</li>
+  <li>알고리즘 문제를 풀고 정답으로 나왔을 때는 후련한 기분이 든다.</li>
+  <li>점심부터 공부를 시작해서 수업은 많이 진행하지 못했다. 그래도 알고리즘 과제를 끝낸 것에 큰 성과가 있었다고 생각한다.</li>
+</ul>
+
+<h2 id="내일-할-일">내일 할 일</h2>
+<ol>
+  <li>Java 실시간 강의 듣기</li>
+  <li>멋사 교육 참석</li>
+  <li>프언어 수업 듣기</li>
+  <li>이산수학 수업 듣기</li>
+  <li>이산수학 과제</li>
+</ol>
+
+:ET
