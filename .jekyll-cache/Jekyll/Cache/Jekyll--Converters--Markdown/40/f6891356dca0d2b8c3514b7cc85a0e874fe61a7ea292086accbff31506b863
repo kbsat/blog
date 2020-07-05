@@ -1,0 +1,83 @@
+I"k<h3 id="계획수행표">계획수행표</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">계획</th>
+      <th style="text-align: center">수행</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">데이터통신 강의</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">자바 강의</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">멋사 참여</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">이산수학 강의</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>수행도</strong></td>
+      <td style="text-align: center"><strong>100%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="today-i-learend">Today I Learend</h2>
+<h2 id="데이터통신">데이터통신</h2>
+<ul>
+  <li>물리 계층에 대해 자세히 알아보았다. 물리 계층에서는 비트에 대한 정보를 물리적 신호로 바꾸어 전달하는 역할을 한다.</li>
+  <li>데이터 통신에서 아날로그는 주기신호를 사용하고 디지털 신호는 비주기 신호를 사용한다.</li>
+  <li>주기신호에는 sine wave가 기본적인 형태이다.
+    <ul>
+      <li>sine wave는 amplitude, frequency, phase의 세가지 특성을 가짐.</li>
+      <li>amplitude (진폭) : 신호의 크기나 세기를 의미 신호에서 높이.</li>
+      <li>frequency (주파수) : 주기의 역수로 1초 동안 몇 번 주기가 반복되는지</li>
+      <li>phase (위상) : 사이클의 상대적인 위치. phase에 따라 첫 사이클의 상태가 달라짐.</li>
+      <li>푸리에 해석에 의해 어떤 신호라도 간단한 sine wave의 조합으로 나타낼 수 있다.</li>
+    </ul>
+  </li>
+  <li>비주기 신호는 비주기적이기 때문에 주파수와 주기 이야기 하기 어렵다.
+    <ul>
+      <li>Bit interval 이 주기 대신 사용. sigle bit가 전송되는 시간.</li>
+      <li>Bit rate 가 주파수 대신 사용. 1초 동안 반복되는 bit interval의 수(bps)</li>
+      <li>Bit rate = Bit interval의 역수</li>
+    </ul>
+  </li>
+  <li>Bandwidth(대역폭)
+    <ul>
+      <li>analog bandwidth : medium 이나 signal이 통과시킬 수 있는 주파수의 범위 ( 최대 주파수 - 최저 주파수 )</li>
+      <li>digital bandwidth : medium이 통과시킬 수 있는 최대 Bit rate</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="java-프로그래밍">Java 프로그래밍</h2>
+<ul>
+  <li>추상클래스와 인터페이스에 대해 배웠다.</li>
+  <li>추상클래스는 추상메소드를 가지고 있는 클래스를 의미한다. 추상메소드는 상속받은 하위 클래스에서 오버라이딩하여 사용하는 것을 강제한다.</li>
+  <li>인터페이스는 추상메소드로만 이루어진 클래스이다. 인터페이스는 다중 상속이 가능하다.</li>
+</ul>
+
+<h2 id="이산수학">이산수학</h2>
+<ul>
+  <li>3장 알고리즘에 들어갔다. 탐색, 이진탐색 부터 버블 정렬, 삽입 정렬, 그리디 알고리즘, 정지 알고리즘에 대해 살펴보았다.</li>
+  <li>탐색과 정렬은 이미 알고리즘 시간에 배워서 이해하기 쉬웠다.</li>
+  <li>그리디 알고리즘은 최적의 해를 찾아내는 알고리즘이다. 알고리즘의 최적의 해를 보장하지 못한 경우가 많아 증명이 필요하다.</li>
+  <li>정지 알고리즘은 풀 수 없는 알고리즘이다. 모든 프로그램에 대해 종료를 판단해주는 알고리즘은 없다.</li>
+</ul>
+
+<h2 id="느낀점">느낀점</h2>
+<ul>
+  <li>오랜만에 계획을 다 실천했다. 뿌듯하다.</li>
+  <li>아이디어 기획하는 것은 생각보다 어려운 일인 것 같다. 근본적인 원인을 찾아내고 컨셉을 정하는 것은 너무 어렵다.</li>
+</ul>
+:ET

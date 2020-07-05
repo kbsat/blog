@@ -1,0 +1,39 @@
+I"`<h3 id="계획수행표">계획수행표</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">계획</th>
+      <th style="text-align: center">수행</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">윈도우즈 프로그래밍 수업</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">윈도우즈 프로그래밍 과제</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>수행도</strong></td>
+      <td style="text-align: center"><strong>100%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="today-i-learend">Today I Learend</h2>
+<h2 id="윈도우즈-프로그래밍">윈도우즈 프로그래밍</h2>
+<ul>
+  <li>오늘은 윈도우즈 프로그래밍 수업을 총 세 강 듣고 과제를 해결해보았다.</li>
+  <li>레이아웃 부터 컨텐츠 컨트롤, 아이템컨트롤 까지 배웠다.</li>
+  <li>C#의 도구상자는 정말 유용하다.</li>
+  <li>공부하면서 보니 윈도우즈 프로그래밍의 프로젝트에서 유용하게 쓰일 것 같다.</li>
+</ul>
+
+<h2 id="느낀점">느낀점</h2>
+<ul>
+  <li>아직 이벤트를 다루는 부분에서 어떻게 사용해야 하는지 미숙하다. 과제를 해결하기 위해 RadioButton의 Content를 뽑아내는 과정에서 방법을 몰라 한참 헤맸다. 어떤건 객체를 생성해서 지정해줘야하고 어떤건 두 번 형변환을 시켜줘야하고.. 디테일한 부분이 아직 부족한 것 같다. 확실히 많이 코딩을 해봐야 할 것 같다.</li>
+</ul>
+:ET

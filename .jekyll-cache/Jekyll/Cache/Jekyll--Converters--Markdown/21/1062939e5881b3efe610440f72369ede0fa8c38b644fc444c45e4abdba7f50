@@ -1,0 +1,48 @@
+I"3<h3 id="계획수행표">계획수행표</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">계획</th>
+      <th style="text-align: center">수행</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Java 프로그래밍 수업</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">알고리즘 과제</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">알고리즘 수업</td>
+      <td style="text-align: center">X</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">이산수학 수업 2개</td>
+      <td style="text-align: center">X</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>수행도</strong></td>
+      <td style="text-align: center"><strong>50%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="today-i-learend">Today I Learend</h2>
+<h2 id="java-프로그래밍">Java 프로그래밍</h2>
+<ul>
+  <li>java swing을 활용하여 GUI를 만들고 이벤트 리스너와 이벤트에 대해서 배웠다.</li>
+  <li>실습코드들을 통해 이런 GUI를 만들 수 있구나 생각했다. 생각보다 많은 기능들을 할 수 있었다. 내가 보기만 하던 프로그램들을 내 손으로 만들 생각을 하니 흥미진진하다.</li>
+</ul>
+
+<h2 id="느낀점">느낀점</h2>
+<ul>
+  <li>이제 Java Swing 을 배우기 시작하고 C#도 GUI 프로그래밍을 배우고 있다. 이제 콘솔창만 보다가 GUI를 배우니 즐겁다. 하지만 아직 LayOut과 라이브러리 사용방법이 익숙치 않다보니 버벅거림이 있다.</li>
+  <li>나중에 Java Swing이나 C# awt 통해 간단한 게임을 만들어 봐야 겠다.</li>
+  <li>알고리즘 과제를 드디어 끝냈다. C++을 활용하는 문제라 C++의 문법을 익히는데 상당 시간을 보냈다. 복잡한 코드였지만 구현을 하니 후련하다.</li>
+  <li>이사준비로 한동안 수업도 블로그 글 작성도 자주 하지 못했다. 이사가 얼른 끝났으면 좋겠다.</li>
+</ul>
+:ET

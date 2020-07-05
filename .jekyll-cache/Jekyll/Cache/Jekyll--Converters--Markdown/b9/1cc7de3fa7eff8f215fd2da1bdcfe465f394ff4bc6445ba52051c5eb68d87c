@@ -1,0 +1,47 @@
+I"q<h3 id="계획수행표">계획수행표</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">계획</th>
+      <th style="text-align: center">수행</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">알고리즘 강의 듣기</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">알고리즘 과제</td>
+      <td style="text-align: center">1/2</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">프언어 강의 듣기</td>
+      <td style="text-align: center">X</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">데이터통신 강의 듣기</td>
+      <td style="text-align: center">X</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>수행도</strong></td>
+      <td style="text-align: center"><strong>30%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="today-i-learend">Today I Learend</h2>
+<h2 id="알고리즘">알고리즘</h2>
+<ul>
+  <li>선택 알고리즘과 탐색 알고리즘에 대해서 배웠다.</li>
+  <li>선택 알고리즘에는 평균적인 상황에서 선형시간이 걸리는 알고리즘과 최악의 경우에도 선형시간이 걸리는 알고리즘이 있다.</li>
+  <li>과제로 선택 알고리즘 구현을 받았는데 최악의 경우에도 선형시간이 걸리는 Linear Select 부분이 원하는 결과값이 안나와서 하루종일 해맸다. 내일까지 되도록 해봐야겠다.. 뭐가 문젠지 하루종일 디버그해야한다.</li>
+  <li>탐색 알고리즘은 자료구조 시간에 배웠던 이진탐색트리를 이용하면 된다.</li>
+</ul>
+
+<h2 id="느낀점">느낀점</h2>
+<ul>
+  <li>알고리즘 과제하느라 프언어 강의와 데이터통신 강의를 듣지 못했다. 내일까지 과제를 해보고 밀린 데이터통신 강의와 프언어 강의를 들어야겠다.</li>
+</ul>
+:ET

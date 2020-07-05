@@ -1,0 +1,66 @@
+I")
+<h3 id="계획수행표">계획수행표</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">계획</th>
+      <th style="text-align: center">수행</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">알고리즘 수업 2개</td>
+      <td style="text-align: center">△</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">이산수학 수업 3개</td>
+      <td style="text-align: center">△</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">Java 프로그래밍 수업</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">프로그래밍 언어론 1개</td>
+      <td style="text-align: center">X</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">윈도우즈 프로그래밍 연습</td>
+      <td style="text-align: center">X</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>수행도</strong></td>
+      <td style="text-align: center"><strong>50%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="today-i-learend">Today I Learend</h2>
+<h2 id="알고리즘">알고리즘</h2>
+<ul>
+  <li>동적 프로그래밍에 대해서 배웠다.</li>
+  <li>동적 프로그래밍은 어떤 문제가 재귀적인 방법으로 진행했을 때 중복 호출이 발생하는 경우 사용하는 알고리즘이다. (예 : 피보나치 수열)</li>
+  <li>동적 프로그래밍의 적용조건
+    <ul>
+      <li>최적 부분 구조 : 큰 문제의 최적 솔루션에 작은 문제의 최적 솔루션 포함</li>
+      <li>재귀 호출 시 중복 : 재귀적 해법으로 풀면 같은 문제에 대한 재귀호출이 심하게 중복</li>
+    </ul>
+  </li>
+  <li>하위 문제의 결과값을 계산하고 저장한 뒤 다음 문제에 저장한 걸 이용!
+    <h2 id="이산수학">이산수학</h2>
+  </li>
+  <li>강귀납법과 재귀적 정의에 대해서 배웠다.</li>
+  <li>수업을 듣긴 했지만 예제를 직접 풀 만큼 이해하지 못한 것 같다.
+    <h2 id="윈도우즈-프로그래밍">윈도우즈 프로그래밍</h2>
+  </li>
+  <li>중간고사 준비할 겸 콘솔 과제를 풀어보았다.</li>
+</ul>
+
+<h2 id="느낀점">느낀점</h2>
+<ul>
+  <li>오늘은 카페에 가서 공부했는데 왜 내가 고등학교 때 공부를 안했는지 알 것 같다. 친구들과 있으면 너무 즐겁다.</li>
+  <li>목요일에 느닷없이 자바 테스트를 본다고 한다.</li>
+  <li>이산수학과 알고리즘이 생각보다 더 어려워지고 있다. 증명하는 건 나랑 좀 안맞는 것 같다.</li>
+</ul>
+:ET

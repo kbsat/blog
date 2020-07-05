@@ -1,0 +1,55 @@
+I"�	<h3 id="계획수행표">계획수행표</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">계획</th>
+      <th style="text-align: center">수행</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Java 프로그래밍 수업</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">멋사 세션 참여</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">알고리즘 수업</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>수행도</strong></td>
+      <td style="text-align: center"><strong>100%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="today-i-learend">Today I Learend</h2>
+<h2 id="java-프로그래밍">Java 프로그래밍</h2>
+<ul>
+  <li>추상클래스와 인터페이스를 계속해서 배우고 있다.</li>
+  <li>자바 8에서는 인터페이스도 default method를 사용가능하다. 그럼 죽음의 다이아몬드와 같은 다중상속의 문제점이 발생하지 않을까?
+    <ul>
+      <li>그래서 인터페이스 간의 우선순위를 지정하던가 오버라이드를 꼭 해줘야한다.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="알고리즘">알고리즘</h2>
+<ul>
+  <li>이진 탐색트리와 레드 블랙 트리 그리고 해쉬 테이블에 대해서 배웠다.</li>
+  <li>이진 탐색트리는 자료구조 시간에 자주 봐서 익숙한 알고리즘이었다.</li>
+  <li>레드 블랙 트리는 처음 봤다. 꽤나 복잡해 보이는 알고리즘이다. 네가지 규칙을 만족하는 트리 구조이다. 이진 탐색트리를 검색할 때 최악의 경우에 log N의 복잡도를 보장하지 못하기 때문에 이를 보완하기 위해서 만들어진 구조로 최악의 경우에도 검색 시 log N을 보장하는 트리구조이다.</li>
+  <li>해쉬 테이블은 검색에 최적화된 알고리즘이다. 키와 밸류로 이루어진다.</li>
+</ul>
+
+<h2 id="느낀점">느낀점</h2>
+<ul>
+  <li>레드 블랙 트리를 배우는데 너무 길어서 머리에 잘 남지 않았다. 다시 복습하면서 천천히 해봐야겠다.</li>
+  <li>B-트리는 학부수준 알고리즘에서는 알맞지 않다고 한다. 나중에 데이터베이스 시간에 배워야겠다.</li>
+  <li>Java에서 인터페이스와 추상클래스의 개념을 계속 주입하다 보니 어느정도 익숙해진 것 같다. 확실히 복습이 효과가 좋나보다.</li>
+</ul>
+:ET

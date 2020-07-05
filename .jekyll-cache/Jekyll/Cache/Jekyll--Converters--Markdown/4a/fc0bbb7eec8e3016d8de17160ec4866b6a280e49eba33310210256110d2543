@@ -1,0 +1,48 @@
+I"�<h3 id="계획수행표">계획수행표</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">계획</th>
+      <th style="text-align: center">수행</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">데이터 통신 수업 듣기</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">프로그래밍 언어론 수업</td>
+      <td style="text-align: center">X</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">윈도우즈 프로그래밍 수업</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>수행도</strong></td>
+      <td style="text-align: center"><strong>66%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="today-i-learend">Today I Learend</h2>
+<h2 id="데이터-통신">데이터 통신</h2>
+<ul>
+  <li>데이터 통신에서 Line Coding 방식과 Block Coding 방식을 배웠다.</li>
+  <li>Line Coding schemes에는 Unipolar, Polar, Bipolar가 있다.</li>
+  <li>Line Coding의 동기화 문제를 해결하기 위해 Block Coding을 사용한다.</li>
+  <li>아날로그 신호를 데이터 통신 하기 위해서는 Sampling 작업이 필요하다.
+    <h2 id="윈도우즈-프로그래밍">윈도우즈 프로그래밍</h2>
+  </li>
+  <li>오늘은 사용자 설정 컨트롤을 배웠다. 유저 컨트롤은 사용자가 직접 만든 컨트롤이다.</li>
+  <li>약간 클래스를 따로 만들어서 떼어와서 쓰는 느낌이다. GUI의 클래스랄까..?</li>
+</ul>
+
+<h2 id="느낀점">느낀점</h2>
+<ul>
+  <li>윈도우즈 프로그래밍 레이아웃 배우고 나서 조금조금씩 토이 프로젝트를 진행하면서 익히고 있는데 상당히 재밌다.</li>
+  <li>오늘 백엔드 프론트엔드 성향 테스트(?) 가 단톡에 올라와서 해봤는데 나는 백엔드 개발성향인 것으로 나왔다.</li>
+</ul>
+:ET

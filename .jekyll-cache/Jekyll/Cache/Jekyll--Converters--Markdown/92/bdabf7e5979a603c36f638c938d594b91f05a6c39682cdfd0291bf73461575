@@ -1,0 +1,59 @@
+I"�	<h3 id="계획수행표">계획수행표</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">계획</th>
+      <th style="text-align: center">수행</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">Java 실시간 강의 듣기</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">멋사 교육 참석</td>
+      <td style="text-align: center">○</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">프언어 수업 듣기</td>
+      <td style="text-align: center">X</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">이산수학 수업 듣기</td>
+      <td style="text-align: center">X</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">이산수학 과제</td>
+      <td style="text-align: center">X</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>수행도</strong></td>
+      <td style="text-align: center"><strong>40%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="today-i-learend">Today I Learend</h2>
+<h2 id="java-프로그래밍">Java 프로그래밍</h2>
+<ul>
+  <li>오늘은 자바 수업이 있었다. 상속에 대해 배웠다.</li>
+  <li>서브 클래스의 생성자를 호출 할 때에는 자동적으로 super(); 의 생성자가 생성되어 부모 클래스가 우선적으로 생성된 후 서브클래스의 생성이 이루어진다. 인자가 있을 경우 직접 입력해 주어야한다.</li>
+  <li>다형성에 대해 굉장히 강요를 하고 있다. 다형성의 중요성을 알 수 있다.</li>
+  <li>자바 수업 중 영어 강의 자료가 있는데 그 영어자료는 리스닝이 꽤나 필요하다. 대충 아는 내용이여서 지레짐작 할 수 있지만 자세한 내용을 배우지 못해 아쉽다. 영어 리스닝 능력을 키우고싶다.</li>
+</ul>
+
+<h2 id="느낀점">느낀점</h2>
+<ul>
+  <li>오늘은 집에서 이사 준비를 하느라 피곤했다. 자바 수업을 듣고 멋사 교육에 참석하고나니 뻗을 것 같았다. 그래서 오늘 맡은 일을 다 하지 못했다 . 또 내일은 새벽에 배를 타고 시골 집에 내려갔다 와야하니 아마 힘든 일과가 될 것 같다.</li>
+  <li>멋사 교육을 온라인으로 진행 중인데 오프라인으로 다른 사람들과 할 수 있으면 더 좋을 것 같다고 생각이든다. 망할 코로나..</li>
+</ul>
+
+<h2 id="내일-할-일">내일 할 일</h2>
+<ol>
+  <li>멋사 과제 해결</li>
+  <li>윈도우즈 프로그래밍 수업 듣기</li>
+</ol>
+
+:ET

@@ -1,0 +1,84 @@
+I"�<h3 id="계획수행표">계획수행표</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">계획</th>
+      <th style="text-align: center">수행</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">이산수학 강의</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">데이터통신 강의</td>
+      <td style="text-align: center">O</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">알고리즘 강의</td>
+      <td style="text-align: center">X</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">프로그래밍 언어론 강의</td>
+      <td style="text-align: center">X</td>
+    </tr>
+    <tr>
+      <td style="text-align: center"><strong>수행도</strong></td>
+      <td style="text-align: center"><strong>50%</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="today-i-learend">Today I Learend</h2>
+<h2 id="이산수학">이산수학</h2>
+<ul>
+  <li>알고리즘 챕터에 들어가면서 알고리즘 수업과 많은 부분이 겹치고 있다.</li>
+  <li>빅 O표기법과 빅 오메가 표기법, 빅 쎄타 표기법에 대해 배웠다. 확실히 반복하니 이해가 잘 된다.</li>
+</ul>
+
+<h2 id="데이터통신">데이터통신</h2>
+<ul>
+  <li>아날로그 전송과 디지털 전송의 차이에 대해서 배웠다.</li>
+  <li>Low-pass 채널과 Bound-pass 채널이 존재한다.</li>
+  <li>Digital transmission : low-pass channel 필요</li>
+  <li>Analog transmission : band-pass channel 필요( low-pass channel도 사용 가능)</li>
+  <li>따라서 아날로그 전송이 자유도가 높다.</li>
+  <li>Data Rate Limits : data rate는 세가지 요소에 영향을 받음
+    <ul>
+      <li>이용가능한 대역폭, 사용 가능한 신호의 세기, 채널의 성능</li>
+      <li>data rate 계산은 노이즈 없는 채널과 있는 채널에서 계산방식이 다름.</li>
+    </ul>
+  </li>
+  <li>Niquist bit rate(노이즈 없는 채널)
+    <ul>
+      <li>BitRate(bps) = 2 * bandwidth * log<sub>2</sub>L</li>
+    </ul>
+  </li>
+  <li>Shannon capacity(노이즈 있는 채널)
+    <ul>
+      <li>capacity = bandwidth * log<sub>2</sub>(1+SNR)</li>
+      <li>SNR : 시그널의 파워 / 노이즈의 파워</li>
+    </ul>
+  </li>
+  <li>전송에서 손실 : Attenuation , Distortion, Noise
+    <ul>
+      <li>Attenuation : 저항에 의한 손실 발생. 증폭기로 손실을 약화시킬 수 있다.
+        <ul>
+          <li>Decibel : 두 신호의 세기를 비교할 때 사용 (dB = 10log<sub>10</sub>(P<sub>2</sub>/P<sub>1</sub>))</li>
+        </ul>
+      </li>
+      <li>Distortion : 복합신호의 지연속도의 차이로 딜레이가 발생해 신호의 형태나 모양이 변함</li>
+      <li>Noise : 외부요인에 의해 신호가 변함</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="느낀점">느낀점</h2>
+<ul>
+  <li>카페에서 공부했지만 강의 두 개 듣고 저녁 먹고 놀아버렸다.</li>
+  <li>역시 노는건 즐겁다.</li>
+  <li>배불러도 공부안돼</li>
+</ul>
+:ET
